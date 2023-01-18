@@ -11,6 +11,7 @@ export class EmitterService {
   public down = new BehaviorSubject<boolean>(false);
 
   setDown(changeToggle: boolean) {
+
     this.down.next(changeToggle);
   }
 
@@ -19,6 +20,10 @@ export class EmitterService {
   }
 
   
+
+
+
+
   public eyeto = new BehaviorSubject<boolean>(false);
 
   setEyeto(changeToggle: boolean) {
