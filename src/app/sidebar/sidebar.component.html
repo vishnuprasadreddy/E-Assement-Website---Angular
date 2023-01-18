@@ -1,0 +1,147 @@
+
+<div class="container">
+    
+    <div class="items" >
+        <a href=""><img src="/assets/images/items.png" style="width: 73px; height: 80px;" alt=""></a>
+    </div><br>
+    <div class="tests">
+        <img src="/assets/images/tests.png"style="width: 73px; height: 73px;" alt="">
+    </div><br>
+    <div class="testtakers" style="height: 90px;">
+        <img src="/assets/images/testtakers.png" style="width: 73px; height: 90px; " alt="">
+    </div><br>
+    <div class="groups">
+        <img src="/assets/images/groupss.png" style="width: 73px; height: 73px;" alt="">
+    </div><br>
+    <div class="deliveries">
+        <img src="/assets/images/deliveries.png" style="width: 73px; height: 73px;"alt="">
+    </div><br>
+    <div class="results">
+        <img src="/assets/images/results.png" style="width: 73px; height: 85px;" alt="">
+    </div>
+</div>
+
+<div id="sideba">
+    
+    <div class="sideba-2" *ngIf="!pencilb">
+        
+            <div class="item-1">
+                <img src="/assets/images/file.png" class="file"alt="">
+            <p style="font-weight: 800; font-size: 15px; color: #0C747E; padding-left: 0px; margin-bottom: 0; margin-top: 0;">Item</p>
+            <img src="/assets/images/drop-down.png" class="drop-arrow" alt="">
+            </div>
+            <div class="qti-test">
+                <img src="/assets/images/file.png" class="file" alt="">
+            <p style="font-weight: 800; font-size: 15px; color: #0C747E; padding-left: 0px; margin-bottom: 0; margin-top: 0;">QT1 Example Test</p>
+            <img src="/assets/images/drop-down.png"  (click)="drop()" class="drop-arrow-1" alt="">
+            </div>
+            <div *ngIf="down">
+                <p class="new-item">Characters and Plays</p>  
+                <p  class="new-item" (click)="choclate()" >Chocolate Factory</p>
+                 <p class="new-item">Elections in the United St</p>
+                 <p class="new-item">Identifying Sentence Erro</p>
+                 <p class="new-item">Modal Feedback </p>
+                 <p class="new-item">Periods of History </p>
+                 <p class="new-item">Richard III (Take 2)  </p>
+                 <p class="new-item-1" >The Space Shuttle, 30 yea </p>
+            </div>
+            <div *ngIf="bool" class="new">
+                <img src="/assets/images/file.png" class="file" alt="">
+                <p style="font-weight: 800; font-size: 15px; color: #0C747E; padding-left: 0px; margin-bottom: 0; margin-top: 0;">New Class</p>
+            </div>
+  
+    <div class="row-1" style="display: flex;">
+   <img src="/assets/images/new folder.png" (click)="newclass()" style="padding: 7px; "  alt="" >
+   <div style="width: 105px; height: 75px;" >
+   <img src="/assets/images/Rectangle green.png" style="padding: 7px; width: 102px;" alt="" >
+   <img src="/assets/images/delete-img.png" (click)="delet()" style="width: 55px; height: 45px; position: relative; top: -64px; left: 23px;" alt="">
+</div>
+   </div>
+    <div class="row-2" style="display: flex;" >
+    <div style="width: 105px; height: 75px;">
+   <img src="/assets/images/Rectangle green.png" style="padding: 7px; "alt="">
+   <img src="/assets/images/export-img.png" style="width: 55px; height: 45px; position: relative; top: -64px; left: 22px;" alt="">
+
+    </div>
+    <div style="width: 105px; height: 75px;">
+   <img src="/assets/images/Rectangle green.png" style="padding: 7px;" alt="">
+   <img src="/assets/images/import-img.png" style="width: 55px; height: 45px; position: relative; top: -62px; left: 22px;" alt="">
+   </div>
+   </div>
+    <div class="row-3" style="display: flex;">
+    <div style="width: 105px; height: 75px;">
+   <img src="/assets/images/Rectangle green.png" style="padding: 7px; "alt="">
+   <img src="/assets/images/moveto-img.png" style="width: 60px; height: 50px; position: relative; top: -66px; left: 20px;" alt="">
+
+    </div>
+    <div style="width: 105px; height: 75px;">
+   <img src="/assets/images/Rectangle green.png" style="padding: 7px;" alt="">
+   <img src="/assets/images/newitem-img.png" style="width: 62px; height: 52px; position: relative; top: -67px; left: 21px;" alt="">
+   </div>
+   </div>
+    <div class="row-4" style="display: flex;">
+    <div style="width: 105px; height: 75px;">
+   <img src="/assets/images/Rectangle green.png" style="padding: 7px; "alt="">
+   <img src="/assets/images/duplicate-img.png" style="width: 65px; height: 55px; position: relative; top: -68px; left: 17px;" alt="">
+
+    </div>
+    <div style="width: 105px; height: 75px;">
+   <img src="/assets/images/Rectangle green.png" style="padding: 7px;" alt="">
+   <img src="/assets/images/copyto-img.png" style="width: 65px; height: 55px; position: relative; top: -68px; left: 17px;" alt="">
+   </div>
+   </div>
+</div>
+
+<div *ngIf="pencilb">
+<div class="drop-down-1">
+    <p style="font-weight: 800; font-size: 13px; color: #0C747E; padding-left: 4px;">COMMON INTERACTION</p>
+    <img src="/assets/images/drop-down.png" (click)="hide()" class="droparrow" alt="">
+</div><br><br>
+<div *ngIf="!com" style="position: relative; left: -3px; " >
+    <div class="row1" style="display: flex;">
+        <img src="/assets/images/choice.png"  (click)="choicein()" style="padding: 7px;" alt="" >
+        <img src="/assets/images/associate.png" style="padding: 7px;" alt="" >
+        </div>
+         <div class="row2" style="display: flex;">
+        <img src="/assets/images/match.png" (click)="matchin()" style="padding: 7px;"alt="">
+        <img src="/assets/images/order.png" style="padding: 7px;" alt="">
+        </div>
+         <div class="row3" style="display: flex;">
+        <img src="/assets/images/hottext.png" style="padding: 7px;" alt="">
+        <img src="/assets/images/gap match.png" style="padding: 7px;" alt="">
+        </div>
+         <div class="row4" style="display: flex;">
+        <img src="/assets/images/slider.png" style="padding: 7px;" alt="">
+        <img src="assets/images/ext text.png" style="padding: 7px;" alt="">
+        </div>
+         <div class="row5" style="display: flex;">
+        <img src="assets/images/media.png" style="padding: 7px;" alt="">
+        <img src="assets/images/fileupload.png" style="padding: 7px;" alt="">
+        </div>
+</div>
+
+<div class="inline">
+<p style="font-weight: 800; padding-top: 10px;padding-left: 8px; color: #0C747E; font-size: 13px;">INLINE INTERACTION</p>
+<img src="/assets/images/drop-down.png" class="droparrow-1" style="top: 15px;" alt="">
+</div>
+<div class="graphic">
+<p style="font-weight: 800; padding-top: 10px;padding-left: 8px; color: #0C747E; font-size: 13px;">GRAPHIC INTERACTION</p>
+<img src="/assets/images/drop-down.png" class="droparrow-2" style="top: 15px;"alt="">
+</div>
+<div class="custom">
+<p style="font-weight: 800; padding-top: 10px;padding-left: 8px; color: #0C747E; font-size: 13px;">CUSTOM INTERACTION</p>
+<img src="/assets/images/drop-down.png" class="droparrow-3" style="top: 15px;" alt="">
+</div>
+
+</div>
+
+
+
+   
+  
+</div>
+
+
+
+
+ 

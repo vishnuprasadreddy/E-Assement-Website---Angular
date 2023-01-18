@@ -1,0 +1,310 @@
+
+<div class="edit-item" *ngIf="!rect">
+    <div class="edit">Edit Class</div>
+    <div class="label">
+        <label for="">Label</label><label for="" style="color: red;">*</label>
+        <input type="text" placeholder="Choclate Factory" style="margin-left: 120px; border-radius: 5px; height: 40px; width: 500px;">
+    </div>
+    <div class="item-model" *ngIf="send" >
+        <label for="">Item Model</label>
+        <input type="radio" style="margin-left:90px; accent-color: #000000; width: 15px; height: 15px;" ><label for="">QTI</label>
+    </div>
+</div>
+<div *ngIf="!match">
+<div class="rectangle-around" *ngIf="rect">
+  <div *ngIf="!bin">
+  <div *ngIf="!don">
+    <div class="card" *ngIf="choice">
+      <div class="card-header">
+        <p class="coice-interation" id="ModalLabel">CHOICE INTERACTION</p>
+        <span class="choice-right">
+          <p class="question" *ngIf="!please">QUESTION</p>
+          <p class="question1" *ngIf="please" (click)="question()" >QUESTION</p>
+          <p class="response" (click)="response()" *ngIf="!please" >RESPONSE</p>
+          <p class="response1" *ngIf="please" >RESPONSE</p>
+          <img src="/assets/images/trash.png" (click)="trash()"  class="trash" alt="">
+      </span>
+      </div>
+
+      <div class="card-body" *ngIf="!please" >
+          <div class="col-md-7">
+            <input type="text" id="input-holder" class="form-control" placeholder="Define Prompt">
+          </div>
+          <div class="choices">
+            <div style="display: flex; align-items: flex-start;">
+            <input type="radio" name="choice" id="choice-3">
+            <label for="choice" style="padding-left: 28px;font-size: 15px; ">CHOICE 1</label>
+            <img src="/assets/images/trash-1.png" class="trash-1" alt=""><br><br>
+          </div>
+          <div>
+            <input type="radio" name="choice" id="choice-3">
+            <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 2</label>
+            <img src="/assets/images/trash-1.png" class="trash-1" alt=""><br><br>
+          </div>
+          <div>
+            <input type="radio" name="choice" id="choice-3">
+            <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 3</label>
+            <img src="/assets/images/trash-1.png"class="trash-1" alt="">
+          </div>
+          
+          </div>
+          <div class="add">
+            <img src="/assets/images/plus.png" style="width: 17px; height: 17px; margin-left: 8px;" alt="">
+            <p style="font-size: 15px; font-weight: 700; color: #0C747E; padding-left: 10px; padding-top: 16px;">Add Choice</p>
+          </div>
+          <div>
+            <button class="done">Done</button>
+          </div>
+
+      </div>
+      <div class="card-body" *ngIf="please" >
+        <div class="col-md-7">
+        <div id="input-holderr" ><span class="caution"><img src="/assets/images/i.png" class="i-image" alt=""><p class="caution-2">Please define the correct response below</p></span></div>
+        </div>
+        <div class="choices">
+          <div style="display: flex; align-items: flex-start;">
+          <input type="radio" name="choice" id="choice-3">
+          <label for="choice" style="padding-left: 28px;font-size: 15px; ">CHOICE 1</label><br><br>
+       
+        </div>
+        <div>
+          <input type="radio" name="choice" id="choice-3">
+          <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 2</label><br><br>
+          
+        </div>
+        <div>
+          <input type="radio" name="choice" id="choice-3">
+          <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 3</label><br><br>
+          
+        </div>
+        
+        </div>
+        <div>
+          <button class="done" (click)="done()">Done</button>
+        </div>
+        
+    </div>
+
+    </div>
+    </div>
+    </div>
+  
+    <div class="card1" *ngIf="don">
+    <div class="card-body" >
+      <div class="col-md-5">
+        <p style="color: #0C747E; font-size: 18px;">Question Body</p>
+      </div>
+      <div class="choices">
+        <div style="display: flex; align-items: flex-start;">
+        <input type="radio" name="choice" id="choice-3">
+        <label for="choice" style="padding-left: 28px;font-size: 15px; ">CHOICE 1</label><br><br>
+     
+      </div>
+      <div>
+        <input type="radio" name="choice" id="choice-3">
+        <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 2</label><br><br>
+        
+      </div>
+      <div>
+        <input type="radio" name="choice" id="choice-3">
+        <label for="choice" style="padding-left: 28px; font-size: 15px;">CHOICE 3</label><br><br>
+        
+      </div>
+      
+      </div>
+    
+      
+  </div>
+</div>
+   
+</div>
+</div>
+<div class="rectangle-around" *ngIf="bin"></div>
+<div *ngIf="!bin">
+<div *ngIf="!hidden">
+  <div class="card-M" *ngIf="match" >
+    <div class="card-header-M">
+      <p class="coice-interation-M" id="ModalLabel-M">MATCH INTERACTION</p>
+      <span class="choice-right-M">
+        <p class="question-M" *ngIf="!card">QUESTION</p>
+        <p class="question-M-" *ngIf="card" (click)="Match3()">QUESTION</p>
+        <p class="response-M" (click)="Match2()" *ngIf="!card">RESPONSE</p>
+        <p class="response-M-" *ngIf="card" >RESPONSE</p>
+        <img src="/assets/images/trash.png" (click)="trash()" class="trash-M" alt="">
+    </span>
+    </div>
+    <div class="card-body-M" *ngIf="!card">
+        <div class="col-md-4">
+          Define Prompt
+        </div>
+        <div class="box-M">
+          <div class="box-item-M"></div>
+          <div class="box-item-M">CHOICE 1</div>
+          <div class="box-item-M">CHOICE 2</div>  
+          <div class="box-item-M">CHOICE 1</div>
+          <div class="box-item-M" >
+            <label class="container-M">
+              <input type="checkbox">
+              <span class="checkmark-M"></span>
+            </label>
+          </div>
+          <div class="box-item-M">
+            <label class="container-M">
+              <input type="checkbox">
+              <span class="checkmark-M"></span>
+            </label>
+          </div>  
+          <div class="box-item-M">CHOICE 2</div>
+          <div class="box-item-M">
+            <label class="container-2-M">
+              <input type="checkbox">
+              <span class="checkmark-2-M"></span>
+            </label>
+          </div>
+          <div class="box-item-M"> 
+          <label class="container-2-M">
+            <input type="checkbox">
+            <span class="checkmark-2-M"></span>
+          </label>
+          </div>
+        </div>
+        <div class="add-M">
+          <img src="/assets/images/plus.png" style="width: 17px; height: 17px; margin-left: 8px;" alt="">
+          <p style="font-size: 15px; font-weight: 700; color: #0C747E; padding-left: 10px; padding-top: 16px;">Add new row</p>
+        </div>
+        <div class="add-1-M">
+          <img src="/assets/images/plus.png" style="width: 17px; height: 17px; margin-left: 8px;" alt="">
+          <p style="font-size: 15px; font-weight: 700; color: #0C747E; padding-left: 10px; padding-top: 16px;">Add new column</p>
+        </div>
+
+        <div class="delete-frame-1-M">
+          <img style="width: 35px; height: 35px;" src="/assets/images/delete frame.png" alt="">
+        </div>
+        <div class="delete-frame-2-M">
+          <img style="width: 35px; height: 35px;" src="/assets/images/delete frame.png" alt="">
+        </div>
+        <div class="delete-frame-3-M">
+          <img style="width: 35px; height: 35px;" src="/assets/images/delete frame-3.png" alt="">
+        </div>
+        <div class="delete-frame-4-M">
+          <img style="width: 35px; height: 35px;" src="/assets/images/delete frame-4.png" alt="">
+        </div>
+
+        
+    <div>
+      <button class="done-M">Done</button>
+    </div>
+    </div>
+
+
+
+    <div class="card-body-M2" *ngIf="card">
+      <div class="col-md-4">
+        Define Prompt
+      </div>
+      <div class="correct-response-M2">
+        <img src="/assets/images/plus.png" style="width: 17px; height: 17px; margin-left: 8px;" alt="">
+        <p style="font-size: 15px; font-weight: 700; color: #0C747E; padding-left: 10px; padding-top: 16px;">Please define the correct reponse below</p>
+      </div>
+      <div class="correct-response-1-M2">
+        <img src="/assets/images/tick.png" style="width: 17px; height: 17px; margin-left: 8px;" alt="">
+        <p style="font-size: 15px; font-weight: 700; color: #ffffff; padding-left: 10px; padding-top: 16px;">You must select 0 to 1 choices</p>
+      </div>
+      <div class="box-M2">
+        <div class="box-item-M2"></div>
+        <div class="box-item-M2">CHOICE 1</div>
+        <div class="box-item-M2">CHOICE 2</div>  
+        <div class="box-item-M2">CHOICE 1</div>
+        <div class="box-item-M2" >
+          <label class="container-M2">
+            <input type="checkbox">
+            <span class="checkmark-M2"></span>
+          </label>
+        </div>
+        <div class="box-item-M2">
+          <label class="container-M2">
+            <input type="checkbox">
+            <span class="checkmark-M2"></span>
+          </label>
+        </div>  
+        <div class="box-item-M2">CHOICE 2</div>
+        <div class="box-item-M2">
+          <label class="container-2-M2">
+            <input type="checkbox">
+            <span class="checkmark-2-M2"></span>
+          </label>
+        </div>
+        <div class="box-item-M2"> 
+        <label class="container-2-M2">
+          <input type="checkbox">
+          <span class="checkmark-2-M2"></span>
+        </label>
+        </div>
+      </div>
+      <div>
+        <button class="done-M" (click)="done2()">Done</button>
+      </div>
+  </div>
+ 
+   
+  </div>
+</div>
+</div>
+
+
+  <div class="card-M3" *ngIf="hidden"> 
+    <div class="card-body-M3">
+          
+      <div class="box-M3">
+        <div class="box-item-M3"></div>
+        <div class="box-item-M3">CHOICE 1</div>
+        <div class="box-item-M3">CHOICE 2</div>  
+        <div class="box-item-M3">CHOICE 1</div>
+        <div class="box-item-M3" >
+          <label class="container-M3">
+            <input type="checkbox">
+            <span class="checkmark-M3"></span>
+          </label>
+        </div>
+        <div class="box-item-M3">
+          <label class="container-M3">
+            <input type="checkbox">
+            <span class="checkmark-M3"></span>
+          </label>
+        </div>  
+        <div class="box-item-M3">CHOICE 2</div>
+        <div class="box-item-M3">
+          <label class="container-2-M3">
+            <input type="checkbox">
+            <span class="checkmark-2-M3"></span>
+          </label>
+        </div>
+        <div class="box-item-M3">
+          <label class="container-2-M3">
+            <input type="checkbox">
+            <span class="checkmark-2-M3"></span>
+          </label>
+        </div> 
+      </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+  
+
+<div class="save-main">
+    <img src="/assets/images/save.png" class="save" alt="">
+  </div>
+  <div >
+    <span class="top-right" *ngIf="send">
+    <img src="/assets/images/eye.png" class="eye" alt="">
+    <img src="/assets/images/pencil.png" (click)="pencil()" class="pencil" alt="">
+    <img src="/assets/images/time.png"  class="time" alt="">
+  
+  </span>
+  </div>

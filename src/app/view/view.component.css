@@ -1,0 +1,1061 @@
+
+.new-item{
+    font-weight: 800; 
+    font-size: 13px; 
+    color: #0C747E;
+     padding-left: 20px;
+     padding-top: 14px; 
+     margin-bottom: 0px;
+   
+}
+.edit-item{
+    position: relative;
+    top:200px;
+    left:600px;
+    width:500px;
+    height: 250px;
+    border: 2px solid #0C747E;
+    border-radius: 10px;
+ 
+}
+.edit{
+    position: relative;
+    top: -2px;
+    left: -2px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #0C747E;
+    width: 498px;
+    height: 40px;
+    border-top-left-radius: 10px;
+   padding-left:15px ;
+   padding-top: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.label{
+  display: flex;
+  align-items: center;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 100px;
+    font-weight: 600;
+}
+.item-model{
+    position: relative;
+    top:80px;
+    left: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    
+
+}
+.save-main{
+    position: absolute;
+    top: 650px;
+    left: 1250px;
+ }
+ .save{
+    width: 100px;
+    height: 40px;
+ }
+
+ .top-right{
+    width: 32.03px;
+    height: 20.92px;
+    position: absolute;
+    top: 95px;
+    left: 1340px;
+    display: flex;
+    float: right;
+    align-items: flex-end;
+ }
+  .eye{
+    width: 28px;
+    height: 18px;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+ .pencil{
+    width: 85px;
+    height: 50px;
+    margin-right: 25px;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+ }
+ .time{
+    width: 28px;
+    height: 28px;
+    margin-right: 25px;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+ }
+ .rectangle-around{
+    position: absolute;
+    top: 200px;
+    right: 220px;
+    width: 800px;
+    height: 400px;
+    border:2px solid #0C747E;
+    border-radius: 20px;
+ }
+ .card-header{
+   background-color: #0C747E;
+   color: #FFFFFF;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+   align-items: center;
+   height: 40px;
+  
+}
+span{
+   font-size: 15px;
+}
+.card{
+   position: absolute;
+   top: 50px;
+   left: 45px;
+   width: 710px;
+   height: 298.98px;
+   border-bottom: 2px  solid #0C747E;
+   border-left: 2px  solid #0C747E;
+   border-right: 2px  solid #0C747E;
+   border-radius: 20px;
+}
+
+#input-holder{
+   width: 658px;
+   height: 31px;
+   border-radius: 0px ;
+   position: relative;
+   top:20px;
+   left: 10px;
+   
+}
+
+
+.hundred{
+   margin-left: 625px;
+   color: #000;
+}
+
+.top-right{
+   width: 32.03px;
+   height: 20.92px;
+   position: absolute;
+   top: 95px;
+   left: 1340px;
+   display: flex;
+   float: right;
+   align-items: flex-end;
+}
+
+.question{
+   font-size: 12px;
+   font-weight: 700;
+   padding-right: 10px;
+   margin-left: 10px;
+   border-right: 1px solid #FFFFFF;
+   cursor: pointer;
+   margin-bottom: 0;
+}
+.question1{
+   font-size: 12px;
+   font-weight: 100;
+   padding-right: 10px;
+   margin-left: 10px;
+   border-right: 1px solid #FFFFFF;
+   cursor: pointer;
+   margin-bottom: 0;
+}
+.response{
+   font-size: 12px;
+   font-weight: 100;
+   font-style: normal;
+   padding-right: 10px;
+   margin-left: 10px;
+   border-right: 1px solid #FFFFFF;
+   cursor: pointer;
+   margin-bottom: 0;
+}
+.response1{
+   font-size: 12px;
+   font-weight: 700;
+   font-style: normal;
+   padding-right: 10px;
+   margin-left: 10px;
+   border-right: 1px solid #FFFFFF;
+   cursor: pointer;
+   margin-bottom: 0;
+}
+
+.trash{
+   width: 16.02px;
+   height: 16.38px;
+   margin-left: 10px;
+   margin-bottom: 0;
+}
+.choice-right{
+   float: right;
+   display: flex;
+   position:absolute;
+ 
+   left: 500px;
+}
+.coice-interation{
+   font-size: 17px;
+   margin-bottom: 0px;
+   height: 20px;
+   padding-left: 15px;
+   
+   
+   
+  
+  
+}
+.choices{
+   position: absolute;
+   top: 120px;
+ 
+}
+#choice-3{
+   
+   height: 17px;
+   width: 17px;
+   border: 2px solid #0C747E;
+   position: relative;
+   left: 20px;
+  
+
+}
+.add{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 240px;
+   left: 10px;
+   border: 2px dotted #0C747E;
+   height: 40px;
+   width: 130px;
+   border-radius: 25px;
+   
+}
+.trash-1{
+   width: 16.02px;
+   height: 16.38px;
+   margin-left: 10px;
+}
+.trash-1{
+   position: absolute;
+   left: 610px;
+}
+.done{
+   background-color: #0C747E;
+   color: #FFFFFF;
+   border-radius: 10px;
+   position: absolute;
+   top: 250px;
+   left: 625px;
+   width: 60px;
+   height: 30px;
+   font-weight: 500;
+   size: 16px;
+   border: 2px solid #0C747E;
+}
+p{
+   margin-top: 0;
+}
+.caution{
+   display: flex;
+   align-items: flex-start;
+  
+   padding-left: 15px;
+   
+
+}
+.i-image{
+   width: 22px;
+   height: 22px;
+   margin-top: 11px;
+   
+}
+.caution-2{
+   color: #0C747E;
+   font-weight: 500;
+   font-size: 18px;
+   padding-top: 9px;
+   padding-left: 10px;
+   
+  
+}
+#input-holderr{
+   border: 3px dotted #0C747E;
+   height: 50px;
+   position: relative;
+   top: 10px;
+   left: 10px;
+   width: 685px;
+   
+}
+.col-md-6{
+   position: absolute;
+   top: 40px;
+}
+.col-md-5{
+   position: absolute;
+   top: 50px;
+   left: 27px;
+}
+.card1{
+   position: absolute;
+   top: 50px;
+   left: 45px;
+   width: 710px;
+   height: 298.98px;
+   border: 2px  solid #0C747E;
+  
+   border-radius: 20px;
+}
+
+
+
+
+.body{
+
+   height: 0px;
+ }
+ .card-header-M{
+    background-color: #0C747E;
+    color: #FFFFFF;
+   border-top-left-radius: 17px;
+   border-top-right-radius: 17px;
+   width: 907px;
+   height: 35px;
+ }
+ span{
+    font-size: 15px;
+ }
+ .card-M{
+    position: relative;
+    top: 140px;
+    left: 450px;
+    width: 910px;
+    height: 380px;
+    border-bottom: 3px  solid #0C747E;
+    border-left: 3px  solid #0C747E;
+    border-right: 3px  solid #0C747E;
+    border-radius: 20px;
+    border-top: #FFFFFF;
+ }
+ 
+ .done-M{
+    background-color: #0C747E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 320px;
+    left: 795px;
+    width: 80px;
+    height: 40px;
+    font-weight: 500;
+    size: 16px;
+    border: 2px solid #0C747E;
+ }
+ 
+ .question-M{
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid #FFFFFF;
+ }
+ .question-M-{
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid #FFFFFF;
+ }
+ .response-M{
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    padding-right: 10px;
+    margin-left: 10px;
+  
+ }
+ .response-M-{
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    padding-right: 10px;
+    margin-left: 10px;
+  
+ }
+ .trash-M{
+    width: 18px;
+    height: 18px;
+    margin-left: 25px;
+ }
+ .choice-right-M{
+    float: right;
+    display: flex;
+    position:absolute;
+    top: 9px;
+    left: 650px;
+ }
+ .coice-interation-M{
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
+   
+   
+   
+ }
+ .col-md-4{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .delete-frame-1-M{
+   position: relative;
+   top: 70px;
+   left: 566px;
+   
+   }
+   .delete-frame-2-M{
+   
+      position: relative;
+      top: 31px;
+   left: 868px; 
+      
+   }
+   .delete-frame-3-M{
+   
+   position: relative;
+   top: 65px;
+   left: -38px;
+   width: 40px;
+   
+   
+   
+   }
+   .delete-frame-4-M{
+   
+   position: relative;
+   top: 61px;
+   left: -38px;
+   width: 40px;
+   
+   
+   }
+
+ .add-M{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 260px;
+   left: 580px;
+   border: 2px dotted #0C747E;
+   height: 32px;
+   width: 140px;
+   border-radius: 25px;
+}
+.add-1-M{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 260px;
+   left: 728px;
+   border: 2px dotted #0C747E;
+   height: 32px;
+   width: 168px;
+   border-radius: 25px;
+}
+.box-M{
+   position: absolute;
+   top: 140px;
+   left: 0px;
+   width: 905px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: 4px solid #0C747E;
+}
+.box-item-M{
+   border: 1px solid #0C747E;
+   display: flex;
+   align-items: center;
+ padding-left: 5px;
+   height: 35px;
+   font-weight: 500;
+}
+.checkbox-M{
+   background-color: #0C747E;
+    width: 20px; 
+    height: 20px;
+    background: #0C747E;
+  
+}
+
+
+.container-M{
+   position: absolute;
+   top: 40px;
+}
+
+.container-M input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+  
+ }
+ 
+ /* Create a custom checkbox */
+ .checkmark-M {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+   background-color: #83C5BE;
+   border-radius: 5px;
+   border: 2px solid #000000;
+  
+ }
+ 
+ /* On mouse-over, add a grey background color */
+ .container-M:hover input ~ .checkmark-M {
+   background-color: #83C5BE;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .container-M input:checked ~ .checkmark-M {
+   background-color: #83C5BE;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark-M:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ /* Show the checkmark when checked */
+ .container-M input:checked ~ .checkmark-M:after {
+   display: block;
+ }
+ 
+ /* Style the checkmark/indicator */
+ .container-M .checkmark-M:after {
+   left: 8px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+
+
+
+
+ .container-2-M{
+   position: absolute;
+   top: 75px;
+}
+
+.container-2-M input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+ }
+ 
+ /* Create a custom checkbox */
+ .checkmark-2-M {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+   background-color: #83C5BE;
+   border-radius: 5px;
+   border: 2px solid #000000;
+ }
+ 
+ /* On mouse-over, add a green background color */
+ .container-2-M:hover input ~ .checkmark-2-M {
+   background-color: #83C5BE;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .container-2-M input:checked ~ .checkmark-2-M {
+   background-color: #83C5BE;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark-2-M:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ /* Show the checkmark when checked */
+ .container-2-M input:checked ~ .checkmark-2-M:after {
+   display: block;
+   
+ }
+ 
+ /* Style the checkmark/indicator */
+ .container-2-M .checkmark-2-M:after {
+   left: 8px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .coice-interation-M2{
+   font-size: 17px;
+   margin-bottom: 0px;
+}
+.col-md-4{
+   position: absolute;
+   top: 50px;
+   left: 20px;
+   font-size: 18px;
+   font-weight: 500;
+}
+.box-M2{
+   position: absolute;
+   top: 200px;
+   left: 0px;
+   width: 905px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: 4px solid #0C747E;
+}
+.box-item-M2{
+   border: 1px solid #0C747E;
+   display: flex;
+   align-items: center;
+ padding-left: 5px;
+   height: 35px;
+   font-weight: 500;
+}
+.checkbox-M2{
+   background-color: #0C747E;
+    width: 20px; 
+    height: 20px;
+    background: #0C747E;
+  
+}
+
+.correct-response-M2{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 85px;
+   left: 0px;
+   border: 2px dotted #0C747E;
+   height: 45px;
+   width: 850px;
+   border-radius: 10px;
+
+}
+.correct-response-1-M2{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 140px;
+   left: 0px;
+   border: 2px dotted #0C747E;
+   height: 45px;
+   width: 850px;
+   border-radius: 10px;
+   background-color: #83C5BE;
+
+}
+.container-M2{
+   position: absolute;
+   top: 40px;
+}
+
+.container-M2 input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+  
+ }
+ 
+ /* Create a custom checkbox */
+ .checkmark-M2 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+   background-color: #83C5BE;
+   border-radius: 5px;
+   border: 2px solid #000000;
+  
+ }
+ 
+ /* On mouse-over, add a grey background color */
+ .container-M2:hover input ~ .checkmark-M2 {
+   background-color: #83C5BE;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .container-M2 input:checked ~ .checkmark-M2 {
+   background-color: #83C5BE;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark-M2:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ /* Show the checkmark when checked */
+ .container-M2 input:checked ~ .checkmark-M2:after {
+   display: block;
+ }
+ 
+ /* Style the checkmark/indicator */
+ .container-M2 .checkmark-M2:after {
+   left: 8px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+
+
+
+
+ .container-2-M2{
+   position: absolute;
+   top: 75px;
+}
+
+.container-2-M2 input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+ }
+ 
+ /* Create a custom checkbox */
+ .checkmark-2-M2 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+   background-color: #83C5BE;
+   border-radius: 5px;
+   border: 2px solid #000000;
+ }
+ 
+ /* On mouse-over, add a green background color */
+ .container-2-M2:hover input ~ .checkmark-2-M2 {
+   background-color: #83C5BE;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .container-2-M2 input:checked ~ .checkmark-2-M2 {
+   background-color: #83C5BE;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark-2-M2:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ /* Show the checkmark when checked */
+ .container-2-M2 input:checked ~ .checkmark-2-M2:after {
+   display: block;
+   
+ }
+ 
+ /* Style the checkmark/indicator */
+ .container-2-M2 .checkmark-2-M2:after {
+   left: 8px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+  
+ }
+
+
+
+
+
+ 
+ .coice-interation-M3{
+   font-size: 17px;
+   margin-bottom: 0px;
+  
+  
+}
+
+.box-M3{
+   position: absolute;
+   top: 70px;
+   left: 10px;
+   width: 885px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: 4px solid #0C747E;
+   border-radius: 10px;
+}
+.box-item-M3{
+   border: 1px solid #0C747E;
+   display: flex;
+   align-items: center;
+ padding-left: 5px;
+   height: 35px;
+   font-weight: 500;
+}
+
+ 
+
+
+
+.card-M3{
+   position: relative;
+   top: 140px;
+   left: 450px;
+   width: 910px;
+   height: 380px;
+   border:3px  solid #0C747E;
+ 
+   border-radius: 20px;
+   
+   
+}
+.container-M3{
+   position: absolute;
+   top: 40px;
+}
+
+.container-M3 input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+  
+ }
+ 
+ /* Create a custom checkbox */
+ .checkmark-M3 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+   background-color: #83C5BE;
+   border-radius: 5px;
+   border: 2px solid #000000;
+  
+ }
+ 
+ /* On mouse-over, add a grey background color */
+ .container-M3:hover input ~ .checkmark-M3 {
+   background-color: #83C5BE;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .container-M3 input:checked ~ .checkmark-M3 {
+   background-color: #83C5BE;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark-M3:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ /* Show the checkmark when checked */
+ .container-M3 input:checked ~ .checkmark-M3:after {
+   display: block;
+ }
+ 
+ /* Style the checkmark/indicator */
+ .container-M3 .checkmark-M3:after {
+   left: 8px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+
+
+
+
+ .container-2-M3{
+   position: absolute;
+   top: 75px;
+}
+
+.container-2-M3 input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+ }
+ 
+ /* Create a custom checkbox */
+ .checkmark-2-M3 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 25px;
+   width: 25px;
+   background-color: #83C5BE;
+   border-radius: 5px;
+   border: 2px solid #000000;
+ }
+ 
+ /* On mouse-over, add a grey background color */
+ .container-2-M3:hover input ~ .checkmark-2-M3 {
+   background-color: #83C5BE;
+ }
+ 
+ /* When the checkbox is checked, add a blue background */
+ .container-2-M3 input:checked ~ .checkmark-2-M3 {
+   background-color: #83C5BE;
+ }
+ 
+ /* Create the checkmark/indicator (hidden when not checked) */
+ .checkmark-2-M3:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ /* Show the checkmark when checked */
+ .container-2-M3 input:checked ~ .checkmark-2-M3:after {
+   display: block;
+ }
+ 
+ /* Style the checkmark/indicator */
+ .container-2-M3 .checkmark-2-M3:after {
+   left: 8px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+
+
+ 
+ 
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
